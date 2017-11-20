@@ -17,7 +17,7 @@ RSpec.describe VehicleOwnerInsurance, type: :model do
   it "calculates the total charges for the owner using the version2 calculations" do
     # Version 2 of the vehicle owner pricing has been devised
     # On any day when the number of vehicles (per owner) on cover (whether they are charged for or not) is 3 or more the price per vehicle
-    # increases by 10%. Eg 3 vehicle charged for for 3 days at a standard rate of £1 per vehicle will cost £9.90
+    # increases by 10%. Eg 3 vehicle charged for 3 days at a standard rate of £1 per vehicle will cost £9.90
 
     owner = Partner.create
 
